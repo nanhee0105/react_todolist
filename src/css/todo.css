@@ -1,0 +1,16 @@
+.todoList {background-color: #fff; width: 380px; min-height: 500px; height: auto; border-radius: 30px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.todoList .todoHeader {border-bottom: 1px solid #ebebeb; padding: 30px 20px;}
+.todoList .todoHeader * {margin: 0;}
+.todoList .todoHeader .date span {color: #888;}
+.todoList .todoHeader .remnants {margin-top: 20px; font-size: 13px; color: hotpink;}
+
+.todoList .todoBody {padding: 0 20px 20px; height: 229px; overflow-y: auto;}
+.todoList .todoBody > div {margin: 20px 0; display: flex; justify-content:space-between}
+.todoList .todoBody .remobeBtn {width: 20px; cursor: pointer;}
+.todoList .todoBody .remobeBtn img {width: 100%;}
+.todoList .addBtn { position: absolute; bottom: -25px; left: 50%; transform: translateX(-50%); border-radius: 50%; border: none; width: 50px; height: 50px; color: #fff; background-color: hotpink; font-size: 39px; cursor: pointer;}
+
+
+.todoCreat {width: 100%;height: 100px;background-color: #d5d5d5;position: absolute;bottom: 0;border-radius: 0 0 31px 31px;display: flex;align-items: center;justify-content: center;}
+
+.todoCreat > * {height: 30px;  margin: 0 5px;} 
