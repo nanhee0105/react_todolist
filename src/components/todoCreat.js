@@ -2,9 +2,7 @@ import '../css/todo.css'
 
 function TodoCreat() {
     return (
-    <div className='todoCreat'>
-        ggg
-    </div>
+    <div className='todoCreat'></div>
     )
 }
 
